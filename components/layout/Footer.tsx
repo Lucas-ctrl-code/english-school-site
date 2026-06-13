@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Dictionary } from "@/lib/i18n/types";
 import type { Locale } from "@/lib/i18n/config";
 import { localizedPath } from "@/lib/i18n/paths";
 
@@ -18,16 +18,19 @@ const footerNav = [
 
 export function Footer({ locale, dict }: FooterProps) {
   const year = new Date().getFullYear();
+  const { footer, contact } = dict;
 
   return (
     <footer className="border-t border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-6 py-16 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-          <div>
-            <p className="font-serif text-xl text-foreground">Common Room</p>
-            <p className="mt-1 text-sm text-muted">{dict.footer.tagline}</p>
-            <p className="mt-6 text-sm leading-relaxed text-muted">
-              {dict.contact.info.address.value}
+      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <div className="lg:col-span-2">
+            <p className="font-serif text-xl text-foreground">{footer.name}</p>
+            <p className="mt-2 text-sm tracking-widest text-muted">
+              {footer.tagline}
+            </p>
+            <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted">
+              {contact.info.address.value}
             </p>
           </div>
 
@@ -49,27 +52,26 @@ export function Footer({ locale, dict }: FooterProps) {
           <div className="text-sm text-muted">
             <p>
               <a
-                href={`mailto:${dict.contact.info.email.value}`}
+                href={`mailto:${contact.info.email.value}`}
                 className="transition-colors hover:text-accent"
               >
-                {dict.contact.info.email.value}
+                {contact.info.email.value}
               </a>
             </p>
-            <p className="mt-2">{dict.contact.info.phone.value}</p>
-            <p className="mt-4 text-xs leading-relaxed">
-              {dict.contact.info.hours.value}
-            </p>
+            <p className="mt-2">{contact.info.phone.value}</p>
+            <p className="mt-2">{contact.info.instagram.value}</p>
+            <div className="mt-6 flex gap-5 text-xs uppercase tracking-wider">
+              <span className="cursor-default">{footer.social.instagram}</span>
+              <span className="cursor-default">{footer.social.twitter}</span>
+              <span className="cursor-default">{footer.social.facebook}</span>
+            </div>
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-border pt-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 border-t border-border pt-8 text-xs text-muted">
           <p>
-            © {year} Common Room Language Studio. {dict.footer.rights}
+            © {year} {footer.name}. {footer.rights}
           </p>
-          <div className="flex gap-6">
-            <span>{dict.footer.links.privacy}</span>
-            <span>{dict.footer.links.terms}</span>
-          </div>
         </div>
       </div>
     </footer>

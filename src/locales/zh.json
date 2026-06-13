@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Common Room Language Studio | 可梦路语言工作室",
+    "description": "位于东京的多语言学习与文化交流空间。英语、中文、日语——学习、分享、连接。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "courses": "课程",
+    "community": "社区",
+    "gallery": "相册",
+    "contact": "联系"
+  },
+  "home": {
+    "hero": {
+      "title": "Common Room Language Studio",
+      "tagline": "Learn · Share · Connect",
+      "intro": "可梦路语言工作室是位于东京的多语言学习与文化交流空间。以英语为核心，同时开设中文与日语课程，欢迎来自世界各地的学习者在此相聚。",
+      "ctaPrimary": "Explore Courses",
+      "ctaSecondary": "Contact Us"
+    },
+    "philosophy": {
+      "title": "每一种声音，都值得被听见",
+      "description": "秉承 Polyglot 多语理念，我们邀请不同文化背景的人在此学习、交流、分享与表达，共同营造友好、开放、互助的学习社群。",
+      "items": [
+        {
+          "title": "Polyglot 理念",
+          "description": "以英语为主轴，中文与日语并行——因为语言本就彼此相连。"
+        },
+        {
+          "title": "多文化交流",
+          "description": "超越语法：故事、视角，以及跨越文化的真实连接。"
+        },
+        {
+          "title": "开放社群",
+          "description": "一间公共客厅，陌生人在茶香与对话中成为朋友。"
+        }
+      ]
+    },
+    "audience": {
+      "title": "我们欢迎",
+      "items": [
+        "在日外国人",
+        "留学生",
+        "日本本地居民",
+        "希望学习语言的你",
+        "热爱交流活动的人"
+      ]
+    },
+    "cta": {
+      "title": "走进 Common Room",
+      "description": "无论是第一次开口，还是第一百次对话——这里总有一个位置留给你。",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "语言相遇之处，社群自然生长。",
+    "polyglot": {
+      "title": "Polyglot 理念",
+      "paragraphs": [
+        "Common Room Language Studio — 可梦路语言工作室 — 源于一个信念：语言学习从不孤独。它在对话中发生，在共餐时流淌，在笑声与耐心里生长。",
+        "教室以英语为主，同时涵盖日语与中文课程，为追求真正多语东京体验的学习者而设。我们不是企业培训中心——我们是一处文化空间，更像街角书店，而非科技公司。",
+        "我们邀请来自不同文化背景的人在这里学习、交流、分享与表达，离开时比来时更彼此相连。"
+      ]
+    },
+    "values": {
+      "title": "我们的坚持",
+      "items": [
+        {
+          "title": "多语思维",
+          "description": "语言是桥梁。我们庆祝语际切换、混用，以及通过比较来学习。"
+        },
+        {
+          "title": "社群优先",
+          "description": "读书会、茶话会、定期活动，让学习在课堂之外继续生长。"
+        },
+        {
+          "title": "温暖耐心",
+          "description": "小班制、细心教师，以及让人放松的空间设计。"
+        }
+      ]
+    }
+  },
+  "courses": {
+    "title": "课程",
+    "subtitle": "面向真实生活的实用课程——从日常对话到职场沟通。",
+    "items": [
+      {
+        "id": "english",
+        "title": "English Lessons",
+        "description": "日常生活、学习与社交自信的通用英语。小班制，充足开口时间。"
+      },
+      {
+        "id": "exam",
+        "title": "Exam Preparation",
+        "description": "TOEIC、IELTS 等考试针对性辅导——策略、练习与从容备考。"
+      },
+      {
+        "id": "interview",
+        "title": "Interview Training",
+        "description": "模拟面试、自我介绍打磨，以及展现最好自己的信心。"
+      },
+      {
+        "id": "business",
+        "title": "Business English",
+        "description": "会议、邮件、演讲与东京职场沟通。"
+      },
+      {
+        "id": "travel",
+        "title": "Travel English",
+        "description": "旅行必备表达与真实场景——机场、酒店及更多。"
+      },
+      {
+        "id": "private",
+        "title": "Private Lessons",
+        "description": "一对一课程，按你的目标、时间与学习风格定制。"
+      }
+    ],
+    "note": "另设中文与日语课程，详情请咨询。",
+    "cta": {
+      "title": "不确定从哪开始？",
+      "description": "预约免费咨询，我们帮你找到合适的路径。",
+      "button": "Contact Us"
+    }
+  },
+  "community": {
+    "title": "社区",
+    "subtitle": "下课之后，学习仍在继续。",
+    "intro": "我们的活动汇聚学习者、旅人与邻里——Common Room 精神的生活延伸。",
+    "events": [
+      {
+        "id": "reading",
+        "title": "Reading Club",
+        "description": "每月英文读物（及其他语言）。阅读、思考，边喝咖啡边讨论。",
+        "schedule": "每月第二个周四 · 19:00"
+      },
+      {
+        "id": "tea",
+        "title": "Tea Talk",
+        "description": "轻松午后对话，话题自由，好茶相伴。",
+        "schedule": "每周三 · 15:00"
+      },
+      {
+        "id": "exchange",
+        "title": "Language Exchange",
+        "description": "与母语者配对练习。英语、中文、日语——全部欢迎。",
+        "schedule": "每周五 · 18:30"
+      },
+      {
+        "id": "movie",
+        "title": "Movie & Music Night",
+        "description": "电影、歌单与歌词——通过声与画感受文化。",
+        "schedule": "每月最后一个周六 · 17:00"
+      },
+      {
+        "id": "cultural",
+        "title": "Cultural Events",
+        "description": "季节聚会、嘉宾分享，以及来自世界各地的庆祝活动。",
+        "schedule": "每月举办 · 日期不定"
+      }
+    ],
+    "photos": {
+      "title": "Common Room 的瞬间"
+    }
+  },
+  "gallery": {
+    "title": "相册",
+    "subtitle": "教室日常——课堂、聚会，以及安静的生活片段。",
+    "close": "关闭"
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "欢迎来访、留言，或关注我们。",
+    "info": {
+      "address": {
+        "label": "地址",
+        "value": "日本东京都涩谷区涩谷 2-15-1，邮编 150-0002"
+      },
+      "phone": {
+        "label": "电话",
+        "value": "+81 3-1234-5678"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@commonroom.studio"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@commonroom.studio"
+      },
+      "hours": {
+        "label": "营业时间",
+        "value": "周一至周五 10:00 – 21:00 · 周六 10:00 – 18:00 · 周日休息"
+      }
+    },
+    "map": {
+      "title": "来访指引",
+      "placeholder": "Google Map"
+    },
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "submit": "Contact Us",
+      "note": "我们通常在一个工作日内回复。"
+    },
+    "cta": "Contact Us"
+  },
+  "footer": {
+    "name": "Common Room Language Studio",
+    "tagline": "Learn · Share · Connect",
+    "rights": "版权所有。",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "X",
+      "facebook": "Facebook"
+    }
+  }
+}

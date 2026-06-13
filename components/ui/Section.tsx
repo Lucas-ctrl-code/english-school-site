@@ -6,18 +6,24 @@ type PageHeaderProps = {
   title: string;
   subtitle?: string;
   children?: React.ReactNode;
+  large?: boolean;
 };
 
 export function PageHeader({
   title,
   subtitle,
   children,
+  large = false,
 }: PageHeaderProps) {
   return (
-    <section className="border-b border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8 lg:py-28">
-        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-accent">
-          Common Room
+    <section className="border-b border-border bg-surface/50">
+      <div
+        className={`mx-auto max-w-7xl px-6 lg:px-10 ${
+          large ? "py-24 lg:py-32" : "py-16 lg:py-24"
+        }`}
+      >
+        <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-accent">
+          Common Room Language Studio
         </p>
         <h1 className="font-serif text-4xl tracking-tight text-foreground lg:text-5xl">
           {title}
@@ -37,12 +43,24 @@ type SectionProps = {
   children: React.ReactNode;
   className?: string;
   id?: string;
+  narrow?: boolean;
 };
 
-export function Section({ children, className = "", id }: SectionProps) {
+export function Section({
+  children,
+  className = "",
+  id,
+  narrow = false,
+}: SectionProps) {
   return (
-    <section id={id} className={`py-20 lg:py-28 ${className}`}>
-      <div className="mx-auto max-w-6xl px-6 lg:px-8">{children}</div>
+    <section id={id} className={`py-16 lg:py-24 ${className}`}>
+      <div
+        className={`mx-auto px-6 lg:px-10 ${
+          narrow ? "max-w-3xl" : "max-w-7xl"
+        }`}
+      >
+        {children}
+      </div>
     </section>
   );
 }
@@ -82,7 +100,7 @@ type ButtonLinkProps = {
   locale: Locale;
   href: string;
   children: React.ReactNode;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "light";
 };
 
 export function ButtonLink({
@@ -92,14 +110,17 @@ export function ButtonLink({
   variant = "primary",
 }: ButtonLinkProps) {
   const base =
-    "inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors";
-  const styles =
-    variant === "primary"
-      ? "bg-accent text-white hover:bg-accent-dark"
-      : "border border-border text-foreground hover:border-accent hover:text-accent";
+    "inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition-colors";
+  const styles = {
+    primary: "bg-accent text-white hover:bg-accent-dark",
+    secondary:
+      "border border-foreground/20 text-foreground hover:border-accent hover:text-accent",
+    light:
+      "border border-white/40 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20",
+  };
 
   return (
-    <Link href={localizedPath(locale, href)} className={`${base} ${styles}`}>
+    <Link href={localizedPath(locale, href)} className={`${base} ${styles[variant]}`}>
       {children}
     </Link>
   );

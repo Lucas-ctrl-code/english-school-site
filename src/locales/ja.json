@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Common Room Language Studio | 可梦路语言工作室",
+    "description": "東京にある多言語学習と文化交流のスペース。英語、中国語、日本語——学び、分かち合い、つながる。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "courses": "コース",
+    "community": "コミュニティ",
+    "gallery": "ギャラリー",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "hero": {
+      "title": "Common Room Language Studio",
+      "tagline": "Learn · Share · Connect",
+      "intro": "可梦路言語スタジオは、東京にある多言語学習と文化交流のスペースです。英語を中心に、中国語と日本語のコースもご用意しています。",
+      "ctaPrimary": "Explore Courses",
+      "ctaSecondary": "Contact Us"
+    },
+    "philosophy": {
+      "title": "すべての声に、居場所を",
+      "description": "ポリグロットの精神に基づき、さまざまな文化背景を持つ人々が学び、交流し、表現し合える——友好的で開かれた学習コミュニティを育てています。",
+      "items": [
+        {
+          "title": "ポリグロット精神",
+          "description": "英語を軸に、中国語と日本語も——言語はもともとつながっているから。"
+        },
+        {
+          "title": "文化交流",
+          "description": "文法を超えて：物語、視点、そして文化を越えたつながり。"
+        },
+        {
+          "title": "開かれたコミュニティ",
+          "description": "お茶と会話で、見知らぬ人が友達になるコモンルーム。"
+        }
+      ]
+    },
+    "audience": {
+      "title": "こんな方を歓迎します",
+      "items": [
+        "在日外国人",
+        "留学生",
+        "日本の地元の学習者",
+        "言語に興味がある方",
+        "交流イベントを探している方"
+      ]
+    },
+    "cta": {
+      "title": "コモンルームへ",
+      "description": "初めての一言でも、百回目の会話でも——あなたの席が待っています。",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "言語が出会う場所、コミュニティが育つ場所。",
+    "polyglot": {
+      "title": "ポリグロット哲学",
+      "paragraphs": [
+        "Common Room Language Studio — 可梦路言語スタジオ — は、言語学習は決して孤独ではないという信念から生まれました。会話の中で、食事を共にしながら、笑いと忍耐の中で育ちます。",
+        "教室は英語を中心に、中国語と日本語のコースも提供。真の多言語体験を求める学習者のための、文化的な空間です。企業研修センターではなく、近所の本屋に近い場所を目指しています。",
+        "さまざまな文化背景を持つ人々に、学び、交流し、自由に表現してほしい——そして来た時よりもっとつながって帰ってほしいと願っています。"
+      ]
+    },
+    "values": {
+      "title": "大切にしていること",
+      "items": [
+        {
+          "title": "多言語マインド",
+          "description": "言語は架け橋。切り替え、混ぜ合わせ、比較を通じて学ぶことを大切にします。"
+        },
+        {
+          "title": "コミュニティ第一",
+          "description": "読書会、ティートーク、定期イベントで、教室の外でも学びが続きます。"
+        },
+        {
+          "title": "温かく、忍耐強く",
+          "description": "少人数制、丁寧な講師、リラックスできる空間設計。"
+        }
+      ]
+    }
+  },
+  "courses": {
+    "title": "コース",
+    "subtitle": "日常生活からビジネスまで——実践的なコミュニケーションのためのプログラム。",
+    "items": [
+      {
+        "id": "english",
+        "title": "English Lessons",
+        "description": "日常生活、学習、社交のための一般英語。少人数でたっぷり話せます。"
+      },
+      {
+        "id": "exam",
+        "title": "Exam Preparation",
+        "description": "TOEIC、IELTSなど試験対策——戦略、練習、落ち着いた準備。"
+      },
+      {
+        "id": "interview",
+        "title": "Interview Training",
+        "description": "模擬面接、自己紹介のブラッシュアップ、最高の自分を伝える自信。"
+      },
+      {
+        "id": "business",
+        "title": "Business English",
+        "description": "会議、メール、プレゼン、東京での職場コミュニケーション。"
+      },
+      {
+        "id": "travel",
+        "title": "Travel English",
+        "description": "旅行に必要な表現とリアルなシーン——空港、ホテルなど。"
+      },
+      {
+        "id": "private",
+        "title": "Private Lessons",
+        "description": "目標、スケジュール、学習スタイルに合わせたマンツーマン。"
+      }
+    ],
+    "note": "中国語・日本語コースもございます。詳細はお問い合わせください。",
+    "cta": {
+      "title": "どこから始めればいいか迷っていますか？",
+      "description": "無料カウンセリングで、あなたに合った道をご案内します。",
+      "button": "Contact Us"
+    }
+  },
+  "community": {
+    "title": "コミュニティ",
+    "subtitle": "レッスンが終わっても、学びは続きます。",
+    "intro": "イベントは学習者、旅人、近所の方々を集めます——コモンルームの精神の延長です。",
+    "events": [
+      {
+        "id": "reading",
+        "title": "Reading Club",
+        "description": "月例の英語読書（他言語も）。コーヒーを飲みながら読み、語り合う。",
+        "schedule": "毎月第2木曜 · 19:00"
+      },
+      {
+        "id": "tea",
+        "title": "Tea Talk",
+        "description": "リラックスした午後の会話。テーマ自由、お茶付き。",
+        "schedule": "毎週水曜 · 15:00"
+      },
+      {
+        "id": "exchange",
+        "title": "Language Exchange",
+        "description": "ネイティブスピーカーとペア練習。英語、中国語、日本語——すべて歓迎。",
+        "schedule": "毎週金曜 · 18:30"
+      },
+      {
+        "id": "movie",
+        "title": "Movie & Music Night",
+        "description": "映画、プレイリスト、歌詞——音と映像で文化を感じる。",
+        "schedule": "毎月最終土曜 · 17:00"
+      },
+      {
+        "id": "cultural",
+        "title": "Cultural Events",
+        "description": "季節の集まり、ゲストスピーカー、世界各地のお祝い。",
+        "schedule": "月1回 · 日程は変動"
+      }
+    ],
+    "photos": {
+      "title": "コモンルームのひとコマ"
+    }
+  },
+  "gallery": {
+    "title": "ギャラリー",
+    "subtitle": "スタジオの日常——レッスン、集まり、静かな瞬間。",
+    "close": "閉じる"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご来店、メッセージ、フォローをお待ちしています。",
+    "info": {
+      "address": {
+        "label": "住所",
+        "value": "〒150-0002 東京都渋谷区渋谷2-15-1"
+      },
+      "phone": {
+        "label": "電話",
+        "value": "+81 3-1234-5678"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@commonroom.studio"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@commonroom.studio"
+      },
+      "hours": {
+        "label": "営業時間",
+        "value": "月〜金 10:00 – 21:00 · 土 10:00 – 18:00 · 日 定休"
+      }
+    },
+    "map": {
+      "title": "アクセス",
+      "placeholder": "Google Map"
+    },
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "message": "メッセージ",
+      "submit": "Contact Us",
+      "note": "通常1営業日以内にご返信いたします。"
+    },
+    "cta": "Contact Us"
+  },
+  "footer": {
+    "name": "Common Room Language Studio",
+    "tagline": "Learn · Share · Connect",
+    "rights": "All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "X",
+      "facebook": "Facebook"
+    }
+  }
+}

@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #faf8f5;
-  --foreground: #2c2c2c;
-  --muted: #6b6560;
-  --border: #e8e2da;
-  --surface: #f3efe8;
-  --accent: #b8845a;
-  --accent-dark: #9a6b42;
+  --background: #f9f7f4;
+  --foreground: #2a2826;
+  --muted: #6e6862;
+  --border: #e5dfd6;
+  --surface: #f1ece5;
+  --accent: #a67c52;
+  --accent-dark: #8a6340;
 }
 
 @theme inline {
@@ -25,13 +25,19 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-family: var(--font-inter), "Hiragino Sans", "Noto Sans JP", "PingFang SC",
+    sans-serif;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--accent) 25%, transparent);
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.font-serif {
+  font-family: var(--font-noto-serif), "Hiragino Mincho ProN", "Noto Serif JP",
+    Georgia, serif;
 }

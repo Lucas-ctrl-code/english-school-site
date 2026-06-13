@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import type { Dictionary } from "@/lib/i18n/dictionaries";
+import type { Dictionary } from "@/lib/i18n/types";
 
 type ContactFormProps = {
   dict: Dictionary["contact"]["form"];
@@ -17,7 +17,7 @@ export function ContactForm({ dict }: ContactFormProps) {
 
   if (submitted) {
     return (
-      <p className="rounded-2xl border border-border bg-surface px-6 py-8 text-center text-muted">
+      <p className="rounded-xl border border-border bg-surface px-6 py-10 text-center text-muted">
         {dict.note}
       </p>
     );
@@ -26,7 +26,10 @@ export function ContactForm({ dict }: ContactFormProps) {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
-        <label htmlFor="name" className="mb-2 block text-sm font-medium text-foreground">
+        <label
+          htmlFor="name"
+          className="mb-2 block text-sm font-medium text-foreground"
+        >
           {dict.name}
         </label>
         <input
@@ -38,7 +41,10 @@ export function ContactForm({ dict }: ContactFormProps) {
         />
       </div>
       <div>
-        <label htmlFor="email" className="mb-2 block text-sm font-medium text-foreground">
+        <label
+          htmlFor="email"
+          className="mb-2 block text-sm font-medium text-foreground"
+        >
           {dict.email}
         </label>
         <input
@@ -50,7 +56,10 @@ export function ContactForm({ dict }: ContactFormProps) {
         />
       </div>
       <div>
-        <label htmlFor="message" className="mb-2 block text-sm font-medium text-foreground">
+        <label
+          htmlFor="message"
+          className="mb-2 block text-sm font-medium text-foreground"
+        >
           {dict.message}
         </label>
         <textarea
@@ -63,7 +72,7 @@ export function ContactForm({ dict }: ContactFormProps) {
       </div>
       <button
         type="submit"
-        className="w-full rounded-full bg-accent px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-accent-dark sm:w-auto"
+        className="w-full rounded-full bg-accent px-6 py-3.5 text-sm font-medium tracking-wide text-white transition-colors hover:bg-accent-dark sm:w-auto"
       >
         {dict.submit}
       </button>

@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Common Room Language Studio | 可梦路语言工作室",
+    "description": "A multilingual learning and cultural exchange space in Tokyo. English, Chinese, and Japanese — learn, share, and connect."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "community": "Community",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Common Room Language Studio",
+      "tagline": "Learn · Share · Connect",
+      "intro": "Common Room Language Studio is a multilingual learning and cultural exchange space in Tokyo — where English is our heart, and Chinese and Japanese find a welcoming home.",
+      "ctaPrimary": "Explore Courses",
+      "ctaSecondary": "Contact Us"
+    },
+    "philosophy": {
+      "title": "A Space for Every Voice",
+      "description": "Inspired by the Polyglot spirit, we invite people from all backgrounds to learn, exchange, and express themselves — building a friendly, open community together.",
+      "items": [
+        {
+          "title": "Polyglot Spirit",
+          "description": "English at the core, with Chinese and Japanese woven in — because languages belong together."
+        },
+        {
+          "title": "Cultural Exchange",
+          "description": "Beyond grammar: stories, perspectives, and connections across cultures."
+        },
+        {
+          "title": "Open Community",
+          "description": "A common room where strangers become friends over tea and conversation."
+        }
+      ]
+    },
+    "audience": {
+      "title": "Who We Welcome",
+      "items": [
+        "Foreign residents in Japan",
+        "International students",
+        "Local Japanese learners",
+        "Anyone curious about languages",
+        "Community event seekers"
+      ]
+    },
+    "cta": {
+      "title": "Step into the Common Room",
+      "description": "Whether it's your first word or your hundredth conversation — there's a seat waiting for you.",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Where languages meet, and community grows.",
+    "polyglot": {
+      "title": "The Polyglot Philosophy",
+      "paragraphs": [
+        "Common Room Language Studio — 可梦路语言工作室 — was born from a belief that language learning is never solitary. It happens in conversation, over shared meals, through laughter and patience.",
+        "Our classroom centers on English, while embracing Chinese and Japanese for learners who seek a truly multilingual Tokyo experience. We are not a corporate training center — we are a cultural space, closer to a neighborhood bookshop than a tech company.",
+        "We invite people from every corner of the world to study, share, and express themselves freely — and to leave a little more connected than when they arrived."
+      ]
+    },
+    "values": {
+      "title": "What Guides Us",
+      "items": [
+        {
+          "title": "Multilingual Mindset",
+          "description": "Languages are bridges. We celebrate switching between them, mixing them, and learning through comparison."
+        },
+        {
+          "title": "Community First",
+          "description": "Regular events, reading clubs, and tea talks keep learning alive outside the classroom."
+        },
+        {
+          "title": "Warm & Patient",
+          "description": "Small groups, attentive teachers, and a space designed to put you at ease."
+        }
+      ]
+    }
+  },
+  "courses": {
+    "title": "Courses",
+    "subtitle": "Practical programs for real-life communication — from everyday chat to professional settings.",
+    "items": [
+      {
+        "id": "english",
+        "title": "English Lessons",
+        "description": "General English for daily life, study, and social confidence. Small groups, plenty of speaking time."
+      },
+      {
+        "id": "exam",
+        "title": "Exam Preparation",
+        "description": "Targeted coaching for TOEIC, IELTS, and other exams — strategy, practice, and calm preparation."
+      },
+      {
+        "id": "interview",
+        "title": "Interview Training",
+        "description": "Mock interviews, self-introduction polish, and the confidence to present your best self."
+      },
+      {
+        "id": "business",
+        "title": "Business English",
+        "description": "Meetings, emails, presentations, and workplace communication for professionals in Tokyo."
+      },
+      {
+        "id": "travel",
+        "title": "Travel English",
+        "description": "Essential phrases and real scenarios for confident travel — airports, hotels, and beyond."
+      },
+      {
+        "id": "private",
+        "title": "Private Lessons",
+        "description": "One-on-one sessions tailored to your goals, schedule, and learning style."
+      }
+    ],
+    "note": "Chinese and Japanese courses are also available. Contact us for details.",
+    "cta": {
+      "title": "Not sure where to start?",
+      "description": "Book a free consultation — we'll help you find the right path.",
+      "button": "Contact Us"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "subtitle": "Learning doesn't end when class does.",
+    "intro": "Our events bring together learners, travelers, and neighbors — a living extension of the Common Room spirit.",
+    "events": [
+      {
+        "id": "reading",
+        "title": "Reading Club",
+        "description": "Monthly books in English (and beyond). Read, reflect, and discuss over coffee.",
+        "schedule": "2nd Thursday · 19:00"
+      },
+      {
+        "id": "tea",
+        "title": "Tea Talk",
+        "description": "Relaxed afternoon conversations with loose topics and good tea.",
+        "schedule": "Every Wednesday · 15:00"
+      },
+      {
+        "id": "exchange",
+        "title": "Language Exchange",
+        "description": "Pair up with native speakers. English, Chinese, Japanese — all welcome.",
+        "schedule": "Every Friday · 18:30"
+      },
+      {
+        "id": "movie",
+        "title": "Movie & Music Night",
+        "description": "Films, playlists, and lyrics — culture through sound and screen.",
+        "schedule": "Last Saturday · 17:00"
+      },
+      {
+        "id": "cultural",
+        "title": "Cultural Events",
+        "description": "Seasonal gatherings, guest speakers, and celebrations from around the world.",
+        "schedule": "Monthly · Dates vary"
+      }
+    ],
+    "photos": {
+      "title": "Moments from the Common Room"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Scenes from our studio — classes, gatherings, and quiet everyday moments.",
+    "close": "Close"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Visit us, send a message, or follow along.",
+    "info": {
+      "address": {
+        "label": "Address",
+        "value": "2-15-1 Shibuya, Shibuya City, Tokyo 150-0002, Japan"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+81 3-1234-5678"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@commonroom.studio"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@commonroom.studio"
+      },
+      "hours": {
+        "label": "Hours",
+        "value": "Mon – Fri 10:00 – 21:00 · Sat 10:00 – 18:00 · Sun Closed"
+      }
+    },
+    "map": {
+      "title": "Find Us",
+      "placeholder": "Google Map"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Contact Us",
+      "note": "We usually reply within one business day."
+    },
+    "cta": "Contact Us"
+  },
+  "footer": {
+    "name": "Common Room Language Studio",
+    "tagline": "Learn · Share · Connect",
+    "rights": "All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "X",
+      "facebook": "Facebook"
+    }
+  }
+}
