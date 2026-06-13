@@ -6,7 +6,7 @@
   "nav": {
     "home": "首页",
     "about": "关于我们",
-    "courses": "课程",
+    "courses": "课程与收费",
     "community": "社区",
     "gallery": "相册",
     "contact": "联系"
@@ -83,8 +83,43 @@
     }
   },
   "courses": {
-    "title": "课程",
+    "title": "课程与收费",
     "subtitle": "面向真实生活的实用课程——从日常对话到职场沟通。",
+    "page": {
+      "hero": {
+        "title": "课程与收费",
+        "subtitle": "Explore our lessons, language sessions, and learner pass options.",
+        "intro": "可梦路语言工作室提供灵活的课程、语言交流活动与学习者点数套餐，适合不同背景与目标的学习者。"
+      },
+      "cards": [
+        { "title": "Trial Lesson", "subtitle": "咨询 / 试听", "duration": "50 min", "price": "1000円" },
+        { "title": "Group Lesson", "subtitle": "1–4人精品小班", "duration": "50 min", "price": "4000円" },
+        { "title": "One-on-One Lesson", "subtitle": "一对一私教", "duration": "50 min", "price": "6000円" },
+        { "title": "Language Sessions", "subtitle": "语言活动 / 趣味沙龙", "duration": "90 min", "price": "3000円" },
+        { "title": "Special Events", "subtitle": "品牌日活动", "duration": "120 min", "price": "Members Only" }
+      ],
+      "pricingTable": {
+        "title": "Pricing Table",
+        "subtitle": "课程收费表",
+        "note": "For detailed pricing and credit information, please refer to the table above.",
+        "image": "/images/charge.jpg"
+      },
+      "learnerPass": {
+        "title": "Learner Pass",
+        "plans": [
+          { "name": "S Package", "price": "30000円", "credits": "33000 Credits", "note": "10% OFF" },
+          { "name": "M Package", "price": "60000円", "credits": "68000 Credits", "note": "12% OFF" },
+          { "name": "L Package", "price": "100000円", "credits": "120000 Credits", "note": "17% OFF" },
+          { "name": "XL Package", "price": "200000円", "credits": "250000 Credits", "note": "20% OFF" }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Start Learning?",
+        "description": "Contact us via phone, LINE, or email to schedule a trial lesson.",
+        "button": "Contact Us",
+        "href": "/contact"
+      }
+    },
     "items": [
       {
         "id": "english",

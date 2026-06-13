@@ -6,7 +6,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "courses": "Courses",
+    "courses": "Courses & Pricing",
     "community": "Community",
     "gallery": "Gallery",
     "contact": "Contact"
@@ -83,8 +83,43 @@
     }
   },
   "courses": {
-    "title": "Courses",
+    "title": "Courses & Pricing",
     "subtitle": "Practical programs for real-life communication — from everyday chat to professional settings.",
+    "page": {
+      "hero": {
+        "title": "Courses & Pricing",
+        "subtitle": "Explore our lessons, language sessions, and learner pass options.",
+        "intro": "Common Room Language Studio offers flexible lessons, language exchange sessions, and learner pass plans for students of different backgrounds and goals."
+      },
+      "cards": [
+        { "title": "Trial Lesson", "subtitle": "Consultation / Trial", "duration": "50 min", "price": "1000円" },
+        { "title": "Group Lesson", "subtitle": "1–4 persons boutique class", "duration": "50 min", "price": "4000円" },
+        { "title": "One-on-One Lesson", "subtitle": "Private tutoring", "duration": "50 min", "price": "6000円" },
+        { "title": "Language Sessions", "subtitle": "Language activities / casual salons", "duration": "90 min", "price": "3000円" },
+        { "title": "Special Events", "subtitle": "Brand-day events", "duration": "120 min", "price": "Members Only" }
+      ],
+      "pricingTable": {
+        "title": "Pricing Table",
+        "subtitle": "Courses & Pricing",
+        "note": "For detailed pricing and credit information, please refer to the table above.",
+        "image": "/images/charge.jpg"
+      },
+      "learnerPass": {
+        "title": "Learner Pass",
+        "plans": [
+          { "name": "S Package", "price": "30000円", "credits": "33000 Credits", "note": "10% OFF" },
+          { "name": "M Package", "price": "60000円", "credits": "68000 Credits", "note": "12% OFF" },
+          { "name": "L Package", "price": "100000円", "credits": "120000 Credits", "note": "17% OFF" },
+          { "name": "XL Package", "price": "200000円", "credits": "250000 Credits", "note": "20% OFF" }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Start Learning?",
+        "description": "Contact us via phone, LINE, or email to schedule a trial lesson.",
+        "button": "Contact Us",
+        "href": "/contact"
+      }
+    },
     "items": [
       {
         "id": "english",

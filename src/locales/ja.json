@@ -6,7 +6,7 @@
   "nav": {
     "home": "ホーム",
     "about": "私たちについて",
-    "courses": "コース",
+    "courses": "コースと料金",
     "community": "コミュニティ",
     "gallery": "ギャラリー",
     "contact": "お問い合わせ"
@@ -83,8 +83,43 @@
     }
   },
   "courses": {
-    "title": "コース",
+    "title": "コースと料金",
     "subtitle": "日常生活からビジネスまで——実践的なコミュニケーションのためのプログラム。",
+    "page": {
+      "hero": {
+        "title": "コースと料金",
+        "subtitle": "Explore our lessons, language sessions, and learner pass options.",
+        "intro": "Common Room Language Studio は、柔軟なレッスン、言語交流セッション、そして学習者向けのパスプランを提供しています。"
+      },
+      "cards": [
+        { "title": "Trial Lesson", "subtitle": "相談 / 体験", "duration": "50 min", "price": "1000円" },
+        { "title": "Group Lesson", "subtitle": "1–4人の少人数クラス", "duration": "50 min", "price": "4000円" },
+        { "title": "One-on-One Lesson", "subtitle": "マンツーマンレッスン", "duration": "50 min", "price": "6000円" },
+        { "title": "Language Sessions", "subtitle": "言語イベント / カジュアルサロン", "duration": "90 min", "price": "3000円" },
+        { "title": "Special Events", "subtitle": "ブランドデイイベント", "duration": "120 min", "price": "Members Only" }
+      ],
+      "pricingTable": {
+        "title": "Pricing Table",
+        "subtitle": "コース料金表",
+        "note": "For detailed pricing and credit information, please refer to the table above.",
+        "image": "/images/charge.jpg"
+      },
+      "learnerPass": {
+        "title": "Learner Pass",
+        "plans": [
+          { "name": "S Package", "price": "30000円", "credits": "33000 Credits", "note": "10% OFF" },
+          { "name": "M Package", "price": "60000円", "credits": "68000 Credits", "note": "12% OFF" },
+          { "name": "L Package", "price": "100000円", "credits": "120000 Credits", "note": "17% OFF" },
+          { "name": "XL Package", "price": "200000円", "credits": "250000 Credits", "note": "20% OFF" }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Start Learning?",
+        "description": "Contact us via phone, LINE, or email to schedule a trial lesson.",
+        "button": "Contact Us",
+        "href": "/contact"
+      }
+    },
     "items": [
       {
         "id": "english",

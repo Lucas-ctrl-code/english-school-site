@@ -7,7 +7,7 @@ export function getGalleryImages() {
   }));
 }
 
-export const HERO_IMAGE = "/images/school1.jpg";
+export const HERO_IMAGE = "/images/school4.jpg";
 export const ABOUT_IMAGE = "/images/school2.jpg";
 
 export const COMMUNITY_PHOTOS = [
