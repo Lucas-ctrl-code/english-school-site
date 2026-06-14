@@ -205,42 +205,36 @@
     "close": "关闭"
   },
   "contact": {
-    "title": "联系",
-    "subtitle": "欢迎来访、留言，或关注我们。",
+    "title": "联系我们",
+    "subtitle": "我们很乐意听到您的消息。\n请通过电话或 LINE 直接联系我们。",
+    "cardTitle": "联系方式",
     "info": {
       "address": {
         "label": "地址",
-        "value": "日本东京都涩谷区涩谷 2-15-1，邮编 150-0002"
+        "value": "東京都千代田区西神田2丁目5番7号\n神田中央ビル202号室"
       },
-      "phone": {
-        "label": "电话",
-        "value": "+81 3-1234-5678"
+      "landline": {
+        "label": "座机",
+        "value": "03-6261-3003"
       },
-      "email": {
-        "label": "Email",
-        "value": "hello@commonroom.studio"
+      "mobile": {
+        "label": "手机",
+        "value": "090-9866-3003"
       },
-      "instagram": {
-        "label": "Instagram",
-        "value": "@commonroom.studio"
-      },
-      "hours": {
-        "label": "营业时间",
-        "value": "周一至周五 10:00 – 21:00 · 周六 10:00 – 18:00 · 周日休息"
+      "line": {
+        "label": "LINE",
+        "value": "090-9866-3003"
       }
     },
-    "map": {
-      "title": "来访指引",
-      "placeholder": "Google Map"
+    "lineSection": {
+      "title": "通过 LINE 联系",
+      "description": "扫描下面的二维码，通过 LINE 直接联系我们。"
     },
-    "form": {
-      "name": "姓名",
-      "email": "邮箱",
-      "message": "留言",
-      "submit": "Contact Us",
-      "note": "我们通常在一个工作日内回复。"
-    },
-    "cta": "Contact Us"
+    "location": {
+      "title": "我们的地址",
+      "address": "東京都千代田区西神田2丁目5番7号\n神田中央ビル202号室",
+      "mapPlaceholder": "Google Maps iframe 占位"
+    }
   },
   "footer": {
     "name": "Common Room Language Studio",

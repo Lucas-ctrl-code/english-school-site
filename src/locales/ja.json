@@ -206,41 +206,35 @@
   },
   "contact": {
     "title": "お問い合わせ",
-    "subtitle": "ご来店、メッセージ、フォローをお待ちしています。",
+    "subtitle": "ご連絡をお待ちしています。\n電話またはLINEで直接ご連絡ください。",
+    "cardTitle": "連絡先情報",
     "info": {
       "address": {
         "label": "住所",
-        "value": "〒150-0002 東京都渋谷区渋谷2-15-1"
+        "value": "東京都千代田区西神田2丁目5番7号\n神田中央ビル202号室"
       },
-      "phone": {
-        "label": "電話",
-        "value": "+81 3-1234-5678"
+      "landline": {
+        "label": "固定電話",
+        "value": "03-6261-3003"
       },
-      "email": {
-        "label": "Email",
-        "value": "hello@commonroom.studio"
+      "mobile": {
+        "label": "携帯",
+        "value": "090-9866-3003"
       },
-      "instagram": {
-        "label": "Instagram",
-        "value": "@commonroom.studio"
-      },
-      "hours": {
-        "label": "営業時間",
-        "value": "月〜金 10:00 – 21:00 · 土 10:00 – 18:00 · 日 定休"
+      "line": {
+        "label": "LINE",
+        "value": "090-9866-3003"
       }
     },
-    "map": {
-      "title": "アクセス",
-      "placeholder": "Google Map"
+    "lineSection": {
+      "title": "LINEで連絡",
+      "description": "下のQRコードをスキャンして、LINEで直接ご連絡ください。"
     },
-    "form": {
-      "name": "お名前",
-      "email": "メールアドレス",
-      "message": "メッセージ",
-      "submit": "Contact Us",
-      "note": "通常1営業日以内にご返信いたします。"
-    },
-    "cta": "Contact Us"
+    "location": {
+      "title": "所在地",
+      "address": "東京都千代田区西神田2丁目5番7号\n神田中央ビル202号室",
+      "mapPlaceholder": "Google Maps iframe プレースホルダー"
+    }
   },
   "footer": {
     "name": "Common Room Language Studio",

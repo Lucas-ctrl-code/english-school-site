@@ -1,4 +1,3 @@
-import { ContactForm } from "@/components/contact/ContactForm";
 import { PageHeader, Section } from "@/components/ui/Section";
 import { isValidLocale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
@@ -17,10 +16,9 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
   const infoItems = [
     contact.info.address,
-    contact.info.phone,
-    contact.info.email,
-    contact.info.instagram,
-    contact.info.hours,
+    contact.info.landline,
+    contact.info.mobile,
+    contact.info.line,
   ];
 
   return (
@@ -89,11 +87,42 @@ export default async function ContactPage({ params }: ContactPageProps) {
             </div>
           </div>
 
-          <div className="rounded-xl border border-border bg-background p-8 shadow-sm">
-            <h2 className="mb-6 font-serif text-2xl text-foreground">
-              {contact.cta}
-            </h2>
-            <ContactForm dict={contact.form} />
+          <div className="space-y-8">
+            <div className="rounded-xl bg-white p-6 shadow hover:shadow-lg transition-shadow">
+              <h3 className="mb-4 text-sm font-medium uppercase tracking-wider text-accent">
+                {contact.cardTitle}
+              </h3>
+              <dl className="space-y-4 text-foreground">
+                {infoItems.map((item) => (
+                  <div key={item.label}>
+                    <dt className="text-xs font-medium uppercase tracking-[0.22em] text-accent">
+                      {item.label}
+                    </dt>
+                    <dd className="mt-1 leading-relaxed">{item.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+
+            <div className="rounded-xl border border-border bg-background p-8 shadow-sm">
+              <h2 className="mb-4 font-serif text-2xl text-foreground">{contact.lineSection.title}</h2>
+              <p className="mb-6 text-sm text-foreground">{contact.lineSection.description}</p>
+              <div className="flex justify-center">
+                <img
+                  src="/images/line-qr.jpg"
+                  alt="LINE QR"
+                  className="max-w-[300px] rounded-xl shadow-lg"
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="mb-3 text-lg font-medium text-foreground">{contact.location.title}</h3>
+              <p className="mb-4 text-foreground whitespace-pre-line">{contact.location.address}</p>
+              <div className="aspect-[16/9] overflow-hidden rounded-xl border border-border bg-surface shadow-sm">
+                <div className="flex h-full items-center justify-center text-muted">Google Maps iframe placeholder</div>
+              </div>
+            </div>
           </div>
         </div>
       </Section>
