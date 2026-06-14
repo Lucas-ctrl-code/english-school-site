@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   title: "Common Room Language Studio",
   description:
     "A warm, welcoming English language studio in Tokyo.",
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -28,13 +33,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${notoSerif.variable} h-full`}>
-      <head>
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#ffffff" />
-      </head>
       <body className="min-h-full flex flex-col antialiased">{children}</body>
     </html>
   );
