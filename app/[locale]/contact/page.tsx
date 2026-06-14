@@ -20,6 +20,10 @@ export default async function ContactPage({ params }: ContactPageProps) {
     contact.info.mobile,
     contact.info.line,
   ];
+  const emailLabel = contact.info.email?.label;
+  const instagramLabel = contact.info.instagram?.label;
+  const phoneLabel = contact.info.phone?.label;
+  const mapPlaceholder = contact.map?.placeholder ?? contact.location?.mapPlaceholder ?? "";
 
   return (
     <>
@@ -35,14 +39,14 @@ export default async function ContactPage({ params }: ContactPageProps) {
                     {item.label}
                   </dt>
                   <dd className="mt-2 leading-relaxed text-foreground">
-                    {item.label === contact.info.email.label ? (
+                    {item.label === emailLabel ? (
                       <a
                         href={`mailto:${item.value}`}
                         className="transition-colors hover:text-accent"
                       >
                         {item.value}
                       </a>
-                    ) : item.label === contact.info.instagram.label ? (
+                    ) : item.label === instagramLabel ? (
                       <a
                         href={`https://instagram.com/${item.value.replace("@", "")}`}
                         target="_blank"
@@ -51,7 +55,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                       >
                         {item.value}
                       </a>
-                    ) : item.label === contact.info.phone.label ? (
+                    ) : item.label === phoneLabel ? (
                       <a
                         href={`tel:${item.value.replace(/\s/g, "")}`}
                         className="transition-colors hover:text-accent"
@@ -79,7 +83,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
                   <path d="M12 21s7-4.5 7-11a7 7 0 10-14 0c0 6.5 7 11 7 11z" />
                   <circle cx="12" cy="10" r="2.5" />
                 </svg>
-                <p className="text-sm font-medium">{contact.map.placeholder}</p>
+                <p className="text-sm font-medium">{mapPlaceholder}</p>
                 <p className="mt-1 max-w-xs px-6 text-center text-xs">
                   {contact.info.address.value}
                 </p>
