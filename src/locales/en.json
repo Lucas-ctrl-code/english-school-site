@@ -213,13 +213,25 @@
         "label": "Address",
         "value": "東京都千代田区西神田2丁目5番7号\n神田中央ビル202号室"
       },
+      "email": {
+        "label": "Email",
+        "value": ""
+      },
       "landline": {
         "label": "Landline",
         "value": "03-6261-3003"
       },
+      "phone": {
+        "label": "Phone",
+        "value": "090-9866-3003"
+      },
       "mobile": {
         "label": "Mobile",
         "value": "090-9866-3003"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": ""
       },
       "line": {
         "label": "LINE",

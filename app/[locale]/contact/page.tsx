@@ -23,7 +23,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
   const emailLabel = contact.info.email?.label;
   const instagramLabel = contact.info.instagram?.label;
   const phoneLabel = contact.info.phone?.label;
-  const mapPlaceholder = contact.map?.placeholder ?? contact.location?.mapPlaceholder ?? "";
+  const mapPlaceholder = contact.location?.mapPlaceholder ?? "";
 
   return (
     <>
